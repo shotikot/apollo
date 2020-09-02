@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/apollo/static/css/main.5e4bd4d1.chunk.css",
+    "main.js": "/apollo/static/js/main.835027e0.chunk.js",
+    "main.js.map": "/apollo/static/js/main.835027e0.chunk.js.map",
+    "runtime-main.js": "/apollo/static/js/runtime-main.a375c8ed.js",
+    "runtime-main.js.map": "/apollo/static/js/runtime-main.a375c8ed.js.map",
+    "static/js/2.cd80077f.chunk.js": "/apollo/static/js/2.cd80077f.chunk.js",
+    "static/js/2.cd80077f.chunk.js.map": "/apollo/static/js/2.cd80077f.chunk.js.map",
+    "index.html": "/apollo/index.html",
+    "precache-manifest.940453d6a6ba1d086f9694c3e79f21bf.js": "/apollo/precache-manifest.940453d6a6ba1d086f9694c3e79f21bf.js",
+    "service-worker.js": "/apollo/service-worker.js",
+    "static/css/main.5e4bd4d1.chunk.css.map": "/apollo/static/css/main.5e4bd4d1.chunk.css.map",
+    "static/js/2.cd80077f.chunk.js.LICENSE.txt": "/apollo/static/js/2.cd80077f.chunk.js.LICENSE.txt",
+    "static/media/game.css": "/apollo/static/media/bg.5d72d5ee.png",
+    "static/media/explosion.svg": "/apollo/static/media/explosion.1cd76f4d.svg",
+    "static/media/explosion.mp3": "/apollo/static/media/explosion.bd1f6121.mp3",
+    "static/media/ongoing.mp3": "/apollo/static/media/ongoing.f51d25e5.mp3",
+    "static/media/spaceship.svg": "/apollo/static/media/spaceship.ccec3013.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a375c8ed.js",
+    "static/js/2.cd80077f.chunk.js",
+    "static/css/main.5e4bd4d1.chunk.css",
+    "static/js/main.835027e0.chunk.js"
+  ]
+}
