@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #12151c; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #20222f 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #171922 
+}
+
+button{
+  cursor: pointer;
+}
+
+button:disabled{
+  cursor: no-drop;
+}
+
+*{
+  outline: none;
+}

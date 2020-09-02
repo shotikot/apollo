@@ -1,0 +1,34 @@
+.num-input-container {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.num-input {
+  background-color: #000000;
+  padding: 8px;
+  margin-left: 5px;
+  width: 100px;
+}
+
+.num-input input {
+  width: 30px;
+  background-color: transparent;
+  color: #fedd14;
+  border: none;
+}
+
+.num-input span {
+  color: #fedd14;
+}
+
+.num-input button {
+  background-color: transparent;
+  color: #393c4d;
+  border: none;
+  font-size: 19px;
+}
+
+.num-input-label {
+  color: #7b83ac;
+}

@@ -1,0 +1,41 @@
+.panel-container {
+  background-color: #151821;
+  margin: 4px;
+  display: flex;
+  padding: 8px;
+}
+
+.panel-part{
+  display: inline-flex;
+  background-color: #272935;
+  padding: 4px;
+  width: 215px;
+  margin: 1px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.panel-dash{
+  display: flex;
+  flex-direction: column;
+}
+
+.bet-btn{
+  background-image: linear-gradient(to bottom, #fcdf55, #f5d42f);
+  border: none;
+  color: rgb(66, 66, 66);
+  font-size: 21px;
+  margin: 1px;
+  padding: 20px 20px;
+  width: 250px;
+}
+
+.bet{
+  background-image: linear-gradient(to bottom, rgb(0, 194, 0), rgb(0, 116, 0));
+  color: yellow;
+}
+
+.cancel{
+  background-image: linear-gradient(to bottom, rgb(235, 0, 0), rgb(179, 0, 0));
+  color: #ffffff;
+}

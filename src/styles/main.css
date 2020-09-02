@@ -1,0 +1,12 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 6% 69% 25%;
+  background-color: #0c0f16;
+  min-height: 100vh;
+}
+
+@media(max-width: 768px){
+  .main-container{
+    grid-template-columns: 100%;
+  }
+}

@@ -1,0 +1,80 @@
+.screen-container {
+  height: 80vh;
+  max-width: 100%;
+  background-image: url("../assets/bg.png");
+  background-size: cover;
+  margin: 4px;
+  position: relative;
+  background-position: 0 0;
+  animation-duration: 200000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.screen-animated {
+  animation-name: fly;
+}
+
+.top-center {
+  position: absolute;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.ship-container {
+  position: absolute;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  transition-duration: 1s;
+}
+
+.outside-loading {
+  height: 4px;
+  width: 100%;
+  text-align: left;
+}
+
+.ship-container .spaceship-img {
+  width: 100px;
+}
+
+.loading-rail {
+  height: 4px;
+  transition-duration: 1s;
+  animation-timing-function: linear;
+  background-color: yellow;
+}
+
+.ship-container h4 {
+  text-align: center;
+}
+
+.off {
+  transform: translateY(-100%);
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+@keyframes fly {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 -10000%;
+  }
+}

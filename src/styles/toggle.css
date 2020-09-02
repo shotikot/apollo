@@ -1,0 +1,31 @@
+.outside-toggle {
+  background-color: #131418;
+  border-radius: 20px;
+  height: 20px;
+  width: 40px;
+  display: inline-flex;
+  transition-duration: .3s;
+  cursor: pointer;
+}
+
+.inside-toggle {
+  background-color: #9499af;
+  height: 16px;
+  width: 16px;
+  border-radius: 100px;
+  transition-duration: .3s;
+  margin: 2px;
+}
+
+.checked-toggle .inside-toggle {
+  background-color: #ffffff;
+  transform: translateX(20px);
+}
+
+.checked-toggle {
+  background-color: #45b21b;
+}
+
+.dis-toggle{
+  cursor: no-drop;
+}
